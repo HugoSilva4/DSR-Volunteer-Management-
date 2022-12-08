@@ -7,46 +7,6 @@
     <UseRazorSourceGenerator>false</UseRazorSourceGenerator>
   </PropertyGroup>
 
-
-  <ItemGroup>
-    <Content Include="styles\base\_index.scss">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="styles\vendor\open-iconic\FONT-LICENSE">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="styles\vendor\open-iconic\fonts\open-iconic.eot">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="styles\vendor\open-iconic\fonts\open-iconic.otf">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="styles\vendor\open-iconic\fonts\open-iconic.svg">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="styles\vendor\open-iconic\fonts\open-iconic.ttf">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="styles\vendor\open-iconic\fonts\open-iconic.woff">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="styles\vendor\open-iconic\ICON-LICENSE">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="styles\vendor\open-iconic\_open-iconic-bootstrap.scss">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-  </ItemGroup>
-
   <ItemGroup>
     <Folder Include="wwwroot\css" />
   </ItemGroup>
