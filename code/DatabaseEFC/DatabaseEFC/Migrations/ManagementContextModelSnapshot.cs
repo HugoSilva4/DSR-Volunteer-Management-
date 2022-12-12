@@ -96,6 +96,9 @@ namespace DatabaseEFC.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("ShiftId"));
 
+                    b.Property<bool>("Accepted")
+                        .HasColumnType("boolean");
+
                     b.Property<string>("EndTime")
                         .IsRequired()
                         .HasColumnType("text");
